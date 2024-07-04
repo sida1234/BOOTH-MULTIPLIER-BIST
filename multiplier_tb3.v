@@ -12,7 +12,7 @@ module BIST_tb(
     wire pass;
     
     //Instantiate the UUT
-    BIST uut(
+multiplier uut(
           .clk(clk),
           .a(a),
           .b(b),
